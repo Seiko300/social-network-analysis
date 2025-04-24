@@ -11,3 +11,5 @@ plt.figure(figsize=(10, 8))
 nx.draw(graph, with_labels=True, node_color='skyblue', node_size=1500, edge_color='gray')
 plt.title("Game of Thrones Character Network")
 plt.show()
+
+plt.savefig("C:/Users/Lenovo/social-network-analysis/results/network_visualization.png")
